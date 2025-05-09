@@ -30,7 +30,7 @@ const logger = {
     banner: () => {
         console.log(`${colors.cyan}${colors.bold}`);
         console.log(`---------------------------------------------`);
-        console.log(`  DDai Network Auto Bot - Airdrop Insiders `);
+        console.log(` ddai-depin-on-solana  - 19Seniman From Insider `);
         console.log(`---------------------------------------------${colors.reset}\n`);
     },
 };
