@@ -1,0 +1,43 @@
+{
+    "name": "ddai-network-auto-bot",
+    "version": "1.0.0",
+    "description": "Automated bot for interacting with DDai Network platform to complete missions and earn rewards",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "lint": "eslint .",
+      "format": "prettier --write ."
+    },
+    "keywords": [
+      "ddai",
+      "auto-bot",
+      "airdrop",
+      "crypto",
+      "automation"
+    ],
+    "author": "Airdrop Insiders <contact@airdropinsiders.com>",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^1.6.7",
+      "dotenv": "^16.3.1",
+      "https-proxy-agent": "^7.0.2"
+    },
+    "devDependencies": {
+      "eslint": "^8.56.0",
+      "eslint-config-prettier": "^9.1.0",
+      "prettier": "^3.2.5"
+    },
+    "engines": {
+      "node": ">=16.0.0",
+      "npm": ">=7.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/airdropinsiders/DDai-Network-Auto-Bot.git"
+    },
+    "bugs": {
+      "url": "https://github.com/airdropinsiders/DDai-Network-Auto-Bot/issues"
+    },
+    "homepage": "https://github.com/airdropinsiders/DDai-Network-Auto-Bot#readme"
+  }
