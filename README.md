@@ -13,7 +13,7 @@
 
 1. git clone https://github.com/19seniman/ddai-depin-on-solana.git
    
-2.cd ddai-depin-on-solana
+ 2.cd ddai-depin-on-solana
 
 3. npm install
 
