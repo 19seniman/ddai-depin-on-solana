@@ -12,16 +12,19 @@
 ## Installation
 
 1. git clone https://codeberg.org/vikitoshi/DDAI-Network.git
-cd DDAI-Network
+   
+2.cd DDAI-Network
 
-2. npm install
+3. npm install
 
-3. nano .env
+4. nano .env
 
 USERNAME=isi dsini username ddaimu
+
 PASSWORD=isi dsini passwordmu
 
-4. jika ingin menggunakan proxy (isi dengan format dibawah ini) : nano  proxies.txt
+5. jika ingin menggunakan proxy (isi dengan format dibawah ini) : nano  proxies.txt
+
 http://proxy1.example.com:8080
 http://proxy2.example.com:8080
 
