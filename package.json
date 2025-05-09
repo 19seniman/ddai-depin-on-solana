@@ -16,7 +16,7 @@
       "crypto",
       "automation"
     ],
-    "author": "Airdrop Insiders <contact@airdropinsiders.com>",
+    "author": " 19Seniman from Insider ",
     "license": "MIT",
     "dependencies": {
       "axios": "^1.6.7",
@@ -34,10 +34,10 @@
     },
     "repository": {
       "type": "git",
-      "url": "git+https://github.com/airdropinsiders/DDai-Network-Auto-Bot.git"
+      "url": "git+https://github.com/19seniman/ddai-depin-on-solana.git"
     },
     "bugs": {
-      "url": "https://github.com/airdropinsiders/DDai-Network-Auto-Bot/issues"
+      "url": "https://github.com/19seniman/ddai-depin-on-solana.git/issues"
     },
-    "homepage": "https://github.com/airdropinsiders/DDai-Network-Auto-Bot#readme"
+    "homepage": "https://github.com/19seniman/ddai-depin-on-solana.git#readme"
   }
