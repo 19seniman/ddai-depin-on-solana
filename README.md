@@ -11,9 +11,9 @@
 
 ## Installation
 
-1. git clone https://codeberg.org/vikitoshi/DDAI-Network.git
+1. git clone https://github.com/19seniman/ddai-depin-on-solana.git
    
-2.cd DDAI-Network
+2.cd ddai-depin-on-solana
 
 3. npm install
 
@@ -26,9 +26,10 @@ PASSWORD=isi dsini passwordmu
 5. jika ingin menggunakan proxy (isi dengan format dibawah ini) : nano  proxies.txt
 
 http://proxy1.example.com:8080
+
 http://proxy2.example.com:8080
 
-5.jaLankan : node index.js
+6.jaLankan : node index.js
 
 The bot will:
 1. Attempt to login or use saved token
