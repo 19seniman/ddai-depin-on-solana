@@ -36,5 +36,11 @@ The bot will:
 2. Complete all available missions
 3. Enter an infinite loop of making requests to earn rewards
 
+##  🍉 Donate for  watermelon
 
+**EVM Address**  
+`0xf01fb9a6855f175d3f3e28e00fa617009c38ef59`
+
+**via Dana**  
+`085830000502`
 
