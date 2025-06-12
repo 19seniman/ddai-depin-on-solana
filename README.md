@@ -23,11 +23,10 @@ npm install
 nano .env
 ```
 format on nano .env:
-
+```
 USERNAME=isi dsini username ddaimu
-
 PASSWORD=isi dsini passwordmu
-
+```
 save : ctrl x y enter
 
 ```
