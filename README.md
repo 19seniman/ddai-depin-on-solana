@@ -10,26 +10,41 @@
 - Git
 
 ## Installation
-
-1. git clone https://github.com/19seniman/ddai-depin-on-solana.git
-   
- 2.cd ddai-depin-on-solana
-
-3. npm install
-
-4. nano .env
+```
+git clone https://github.com/19seniman/ddai-depin-on-solana.git
+```   
+``` 
+cd ddai-depin-on-solana
+```
+```
+npm install
+```
+```
+nano .env
+```
+format on nano .env:
 
 USERNAME=isi dsini username ddaimu
 
 PASSWORD=isi dsini passwordmu
 
-5. jika ingin menggunakan proxy (isi dengan format dibawah ini) : nano  proxies.txt
+save : ctrl x y enter
+
+```
+nano token.txt
+```
+(opsional) jika ingin menggunakan proxy (isi dengan format dibawah ini) : 
+
+nano  proxies.txt
 
 http://proxy1.example.com:8080
 
 http://proxy2.example.com:8080
 
-6.jaLankan : node index.js
+~ Run The Script:
+```
+ node index.js
+```
 
 The bot will:
 1. Attempt to login or use saved token
