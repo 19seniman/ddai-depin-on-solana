@@ -118,7 +118,7 @@ async function login(axiosInstance) {
             'content-type': 'application/json',
         };
 
-        const response = await axiosInstance.post('https://auth.ddai.network/login', loginPayload, { headers: loginHeaders });
+        const response = await axiosInstance.post('https://auth.ddai.space/login', loginPayload, { headers: loginHeaders });
         if (response.data.status === 'success') {
             const accessToken = response.data.data.accessToken;
             logger.success(`Login successful | Username: ${response.data.data.user.username}`);
@@ -136,7 +136,7 @@ async function login(axiosInstance) {
 async function getMissions(axiosInstance, token) {
     logger.loading('Fetching missions...');
     try {
-        const response = await axiosInstance.get('https://auth.ddai.network/missions', { headers: getHeaders(token) });
+        const response = await axiosInstance.get('https://auth.ddai.space/missions', { headers: getHeaders(token) });
         if (response.data.status === 'success') {
             logger.success(`Found ${response.data.data.missions.length} missions`);
             return response.data.data.missions;
@@ -156,7 +156,7 @@ async function getMissions(axiosInstance, token) {
 async function claimMission(axiosInstance, token, missionId) {
     logger.step(`Claiming mission ID: ${missionId}`);
     try {
-        const response = await axiosInstance.post(`https://auth.ddai.network/missions/claim/${missionId}`, null, { headers: getHeaders(token) });
+        const response = await axiosInstance.post(`https://auth.ddai.space/missions/claim/${missionId}`, null, { headers: getHeaders(token) });
         if (response.data.status === 'success') {
             logger.success(`Mission claimed | Reward: ${response.data.data.rewards.requests} requests`);
             return response.data;
@@ -217,7 +217,7 @@ const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function modelResponse(axiosInstance, token) {
     logger.loading('Sending Model Response request...');
     try {
-        const response = await axiosInstance.get('https://auth.ddai.network/modelResponse', { headers: getHeaders(token) });
+        const response = await axiosInstance.get('https://auth.ddai.space/modelResponse', { headers: getHeaders(token) });
         logger.success(`Model Response | Throughput: ${response.data.data.throughput}`);
         return response.data;
     } catch (error) {
@@ -233,7 +233,7 @@ async function modelResponse(axiosInstance, token) {
 async function onchainTrigger(axiosInstance, token) {
     logger.loading('Sending Onchain Trigger request...');
     try {
-        const response = await axiosInstance.post('https://auth.ddai.network/onchainTrigger', null, { headers: getHeaders(token) });
+        const response = await axiosInstance.post('https://auth.ddai.space/onchainTrigger', null, { headers: getHeaders(token) });
         logger.success(`Onchain Trigger | Requests Total: ${colors.yellow}${response.data.data.requestsTotal}${colors.reset}`);
         return response.data;
     } catch (error) {
