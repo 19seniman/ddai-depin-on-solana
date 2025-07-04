@@ -24,8 +24,8 @@ nano .env
 ```
 format on nano .env:
 ```
-USERNAME=isi dsini username ddaimu
-PASSWORD=isi dsini passwordmu
+USERNAME=
+PASSWORD=
 ```
 save : ctrl x y enter
 
