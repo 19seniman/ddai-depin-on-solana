@@ -1,6 +1,6 @@
 
 ## Register
-- Link : https://app.ddai.network/register?ref=nQGzRf9c
+- Link :  https://app.ddai.space/register?ref=nQGzRf9c
 - install extension on browser : https://chromewebstore.google.com/detail/ddai/pigpomlidebemiifjihbgicepgbamdaj
 
 ## Prerequisites
